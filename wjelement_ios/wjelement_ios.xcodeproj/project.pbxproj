@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D91A29DE1E15371200A9186C /* wjelement_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91A29D41E15371200A9186C /* wjelement_ios.framework */; };
+		D91A29DE1E15371200A9186C /* wjelementf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91A29D41E15371200A9186C /* wjelementf.framework */; };
 		D91A29E31E15371200A9186C /* wjelement_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A29E21E15371200A9186C /* wjelement_iosTests.m */; };
-		D91A29E51E15371200A9186C /* wjelement_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A29D71E15371200A9186C /* wjelement_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91A29E51E15371200A9186C /* wjelementf.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A29D71E15371200A9186C /* wjelementf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D91A29F71E15380C00A9186C /* memmgr.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A29F01E15380C00A9186C /* memmgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D91A29F81E15380C00A9186C /* nmutil.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A29F11E15380C00A9186C /* nmutil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D91A29F91E15380C00A9186C /* wjelement.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A29F21E15380C00A9186C /* wjelement.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D91A29D41E15371200A9186C /* wjelement_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wjelement_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D91A29D71E15371200A9186C /* wjelement_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wjelement_ios.h; sourceTree = "<group>"; };
+		D91A29D41E15371200A9186C /* wjelementf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wjelementf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91A29D71E15371200A9186C /* wjelementf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wjelementf.h; sourceTree = "<group>"; };
 		D91A29D81E15371200A9186C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D91A29DD1E15371200A9186C /* wjelement_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wjelement_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91A29E21E15371200A9186C /* wjelement_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wjelement_iosTests.m; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91A29DE1E15371200A9186C /* wjelement_ios.framework in Frameworks */,
+				D91A29DE1E15371200A9186C /* wjelementf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 		D91A29D51E15371200A9186C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D91A29D41E15371200A9186C /* wjelement_ios.framework */,
+				D91A29D41E15371200A9186C /* wjelementf.framework */,
 				D91A29DD1E15371200A9186C /* wjelement_iosTests.xctest */,
 			);
 			name = Products;
@@ -103,7 +103,7 @@
 			children = (
 				D91A29EE1E15380C00A9186C /* include */,
 				D91A29FD1E15383200A9186C /* src */,
-				D91A29D71E15371200A9186C /* wjelement_ios.h */,
+				D91A29D71E15371200A9186C /* wjelementf.h */,
 				D91A29D81E15371200A9186C /* Info.plist */,
 			);
 			path = wjelement_ios;
@@ -191,7 +191,7 @@
 				D91A29F91E15380C00A9186C /* wjelement.h in Headers */,
 				D91A29FA1E15380C00A9186C /* wjreader.h in Headers */,
 				D91A29F81E15380C00A9186C /* nmutil.h in Headers */,
-				D91A29E51E15371200A9186C /* wjelement_ios.h in Headers */,
+				D91A29E51E15371200A9186C /* wjelementf.h in Headers */,
 				D91A2A211E15383200A9186C /* element.h in Headers */,
 				D91A29FB1E15380C00A9186C /* wjwriter.h in Headers */,
 				D91A29F71E15380C00A9186C /* memmgr.h in Headers */,
@@ -202,9 +202,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D91A29D31E15371200A9186C /* wjelement_ios */ = {
+		D91A29D31E15371200A9186C /* wjelementf */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D91A29E81E15371200A9186C /* Build configuration list for PBXNativeTarget "wjelement_ios" */;
+			buildConfigurationList = D91A29E81E15371200A9186C /* Build configuration list for PBXNativeTarget "wjelementf" */;
 			buildPhases = (
 				D91A29CF1E15371200A9186C /* Sources */,
 				D91A29D01E15371200A9186C /* Frameworks */,
@@ -215,9 +215,9 @@
 			);
 			dependencies = (
 			);
-			name = wjelement_ios;
+			name = wjelementf;
 			productName = wjelement_ios;
-			productReference = D91A29D41E15371200A9186C /* wjelement_ios.framework */;
+			productReference = D91A29D41E15371200A9186C /* wjelementf.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D91A29DC1E15371200A9186C /* wjelement_iosTests */ = {
@@ -271,7 +271,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D91A29D31E15371200A9186C /* wjelement_ios */,
+				D91A29D31E15371200A9186C /* wjelementf */,
 				D91A29DC1E15371200A9186C /* wjelement_iosTests */,
 			);
 		};
@@ -323,7 +323,7 @@
 /* Begin PBXTargetDependency section */
 		D91A29E01E15371200A9186C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D91A29D31E15371200A9186C /* wjelement_ios */;
+			target = D91A29D31E15371200A9186C /* wjelementf */;
 			targetProxy = D91A29DF1E15371200A9186C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -439,7 +439,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tipit.wjelement-ios";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = wjelementf;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -458,7 +458,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tipit.wjelement-ios";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = wjelementf;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -497,7 +497,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D91A29E81E15371200A9186C /* Build configuration list for PBXNativeTarget "wjelement_ios" */ = {
+		D91A29E81E15371200A9186C /* Build configuration list for PBXNativeTarget "wjelementf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D91A29E91E15371200A9186C /* Debug */,
