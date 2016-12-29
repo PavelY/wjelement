@@ -6,14 +6,9 @@
 //  Copyright © 2016 Tipit Ltd. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-//! Project version number for wjelement_ios.
-FOUNDATION_EXPORT double wjelement_iosVersionNumber;
-
-//! Project version string for wjelement_ios.
-FOUNDATION_EXPORT const unsigned char wjelement_iosVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <wjelement_ios/PublicHeader.h>
-
-
+#import "memmgr.h"
+#import "nmutil.h"
+#import "wjelement.h"
+#import "wjreader.h"
+#import "wjwriter.h"
+#import "xpl.h"

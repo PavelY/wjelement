@@ -10,6 +10,21 @@
 		D91A29DE1E15371200A9186C /* wjelement_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91A29D41E15371200A9186C /* wjelement_ios.framework */; };
 		D91A29E31E15371200A9186C /* wjelement_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A29E21E15371200A9186C /* wjelement_iosTests.m */; };
 		D91A29E51E15371200A9186C /* wjelement_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A29D71E15371200A9186C /* wjelement_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91A29F71E15380C00A9186C /* memmgr.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A29F01E15380C00A9186C /* memmgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91A29F81E15380C00A9186C /* nmutil.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A29F11E15380C00A9186C /* nmutil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91A29F91E15380C00A9186C /* wjelement.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A29F21E15380C00A9186C /* wjelement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91A29FA1E15380C00A9186C /* wjreader.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A29F31E15380C00A9186C /* wjreader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91A29FB1E15380C00A9186C /* wjwriter.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A29F41E15380C00A9186C /* wjwriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91A29FC1E15380C00A9186C /* xpl.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A29F51E15380C00A9186C /* xpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91A2A1E1E15383200A9186C /* xpl.c in Sources */ = {isa = PBXBuildFile; fileRef = D91A2A071E15383200A9186C /* xpl.c */; };
+		D91A2A201E15383200A9186C /* element.c in Sources */ = {isa = PBXBuildFile; fileRef = D91A2A0A1E15383200A9186C /* element.c */; };
+		D91A2A211E15383200A9186C /* element.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A2A0B1E15383200A9186C /* element.h */; };
+		D91A2A221E15383200A9186C /* hash.c in Sources */ = {isa = PBXBuildFile; fileRef = D91A2A0C1E15383200A9186C /* hash.c */; };
+		D91A2A231E15383200A9186C /* schema.c in Sources */ = {isa = PBXBuildFile; fileRef = D91A2A0D1E15383200A9186C /* schema.c */; };
+		D91A2A241E15383200A9186C /* search.c in Sources */ = {isa = PBXBuildFile; fileRef = D91A2A0E1E15383200A9186C /* search.c */; };
+		D91A2A251E15383200A9186C /* types.c in Sources */ = {isa = PBXBuildFile; fileRef = D91A2A0F1E15383200A9186C /* types.c */; };
+		D91A2A281E15383200A9186C /* wjreader.c in Sources */ = {isa = PBXBuildFile; fileRef = D91A2A131E15383200A9186C /* wjreader.c */; };
+		D91A2A2A1E15383200A9186C /* wjwriter.c in Sources */ = {isa = PBXBuildFile; fileRef = D91A2A161E15383200A9186C /* wjwriter.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +44,21 @@
 		D91A29DD1E15371200A9186C /* wjelement_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wjelement_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91A29E21E15371200A9186C /* wjelement_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wjelement_iosTests.m; sourceTree = "<group>"; };
 		D91A29E41E15371200A9186C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D91A29F01E15380C00A9186C /* memmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memmgr.h; sourceTree = "<group>"; };
+		D91A29F11E15380C00A9186C /* nmutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nmutil.h; sourceTree = "<group>"; };
+		D91A29F21E15380C00A9186C /* wjelement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wjelement.h; sourceTree = "<group>"; };
+		D91A29F31E15380C00A9186C /* wjreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wjreader.h; sourceTree = "<group>"; };
+		D91A29F41E15380C00A9186C /* wjwriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wjwriter.h; sourceTree = "<group>"; };
+		D91A29F51E15380C00A9186C /* xpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xpl.h; sourceTree = "<group>"; };
+		D91A2A071E15383200A9186C /* xpl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xpl.c; sourceTree = "<group>"; };
+		D91A2A0A1E15383200A9186C /* element.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = element.c; sourceTree = "<group>"; };
+		D91A2A0B1E15383200A9186C /* element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = element.h; sourceTree = "<group>"; };
+		D91A2A0C1E15383200A9186C /* hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hash.c; sourceTree = "<group>"; };
+		D91A2A0D1E15383200A9186C /* schema.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = schema.c; sourceTree = "<group>"; };
+		D91A2A0E1E15383200A9186C /* search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = search.c; sourceTree = "<group>"; };
+		D91A2A0F1E15383200A9186C /* types.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = types.c; sourceTree = "<group>"; };
+		D91A2A131E15383200A9186C /* wjreader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wjreader.c; sourceTree = "<group>"; };
+		D91A2A161E15383200A9186C /* wjwriter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wjwriter.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +101,8 @@
 		D91A29D61E15371200A9186C /* wjelement_ios */ = {
 			isa = PBXGroup;
 			children = (
+				D91A29EE1E15380C00A9186C /* include */,
+				D91A29FD1E15383200A9186C /* src */,
 				D91A29D71E15371200A9186C /* wjelement_ios.h */,
 				D91A29D81E15371200A9186C /* Info.plist */,
 			);
@@ -86,6 +118,69 @@
 			path = wjelement_iosTests;
 			sourceTree = "<group>";
 		};
+		D91A29EE1E15380C00A9186C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D91A29F01E15380C00A9186C /* memmgr.h */,
+				D91A29F11E15380C00A9186C /* nmutil.h */,
+				D91A29F21E15380C00A9186C /* wjelement.h */,
+				D91A29F31E15380C00A9186C /* wjreader.h */,
+				D91A29F41E15380C00A9186C /* wjwriter.h */,
+				D91A29F51E15380C00A9186C /* xpl.h */,
+			);
+			name = include;
+			path = ../../include;
+			sourceTree = "<group>";
+		};
+		D91A29FD1E15383200A9186C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D91A2A051E15383200A9186C /* lib */,
+				D91A2A081E15383200A9186C /* wjelement */,
+				D91A2A111E15383200A9186C /* wjreader */,
+				D91A2A141E15383200A9186C /* wjwriter */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		D91A2A051E15383200A9186C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D91A2A071E15383200A9186C /* xpl.c */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		D91A2A081E15383200A9186C /* wjelement */ = {
+			isa = PBXGroup;
+			children = (
+				D91A2A0A1E15383200A9186C /* element.c */,
+				D91A2A0B1E15383200A9186C /* element.h */,
+				D91A2A0C1E15383200A9186C /* hash.c */,
+				D91A2A0D1E15383200A9186C /* schema.c */,
+				D91A2A0E1E15383200A9186C /* search.c */,
+				D91A2A0F1E15383200A9186C /* types.c */,
+			);
+			path = wjelement;
+			sourceTree = "<group>";
+		};
+		D91A2A111E15383200A9186C /* wjreader */ = {
+			isa = PBXGroup;
+			children = (
+				D91A2A131E15383200A9186C /* wjreader.c */,
+			);
+			path = wjreader;
+			sourceTree = "<group>";
+		};
+		D91A2A141E15383200A9186C /* wjwriter */ = {
+			isa = PBXGroup;
+			children = (
+				D91A2A161E15383200A9186C /* wjwriter.c */,
+			);
+			path = wjwriter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +188,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91A29F91E15380C00A9186C /* wjelement.h in Headers */,
+				D91A29FA1E15380C00A9186C /* wjreader.h in Headers */,
+				D91A29F81E15380C00A9186C /* nmutil.h in Headers */,
 				D91A29E51E15371200A9186C /* wjelement_ios.h in Headers */,
+				D91A2A211E15383200A9186C /* element.h in Headers */,
+				D91A29FB1E15380C00A9186C /* wjwriter.h in Headers */,
+				D91A29F71E15380C00A9186C /* memmgr.h in Headers */,
+				D91A29FC1E15380C00A9186C /* xpl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91A2A221E15383200A9186C /* hash.c in Sources */,
+				D91A2A281E15383200A9186C /* wjreader.c in Sources */,
+				D91A2A241E15383200A9186C /* search.c in Sources */,
+				D91A2A2A1E15383200A9186C /* wjwriter.c in Sources */,
+				D91A2A201E15383200A9186C /* element.c in Sources */,
+				D91A2A231E15383200A9186C /* schema.c in Sources */,
+				D91A2A1E1E15383200A9186C /* xpl.c in Sources */,
+				D91A2A251E15383200A9186C /* types.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +436,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = wjelement_ios/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tipit.wjelement-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -344,6 +455,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = wjelement_ios/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tipit.wjelement-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -392,6 +504,7 @@
 				D91A29EA1E15371200A9186C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D91A29EB1E15371200A9186C /* Build configuration list for PBXNativeTarget "wjelement_iosTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +513,7 @@
 				D91A29ED1E15371200A9186C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
