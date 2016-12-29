@@ -8,12 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-//! Project version number for wjelement_osx.
-FOUNDATION_EXPORT double wjelement_osxVersionNumber;
-
-//! Project version string for wjelement_osx.
-FOUNDATION_EXPORT const unsigned char wjelement_osxVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <wjelement_osx/PublicHeader.h>
-
-
+#import "memmgr.h"
+#import "nmutil.h"
+#import "wjelement.h"
+#import "wjreader.h"
+#import "wjwriter.h"
+#import "xpl.h"

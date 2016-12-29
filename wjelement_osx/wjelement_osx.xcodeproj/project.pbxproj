@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90AD9C31E152CBC00C490DD /* memmgr.h in Headers */ = {isa = PBXBuildFile; fileRef = D90AD9BC1E152CBC00C490DD /* memmgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D90AD9C41E152CBC00C490DD /* nmutil.h in Headers */ = {isa = PBXBuildFile; fileRef = D90AD9BD1E152CBC00C490DD /* nmutil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D90AD9C51E152CBC00C490DD /* wjelement.h in Headers */ = {isa = PBXBuildFile; fileRef = D90AD9BE1E152CBC00C490DD /* wjelement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D90AD9C61E152CBC00C490DD /* wjreader.h in Headers */ = {isa = PBXBuildFile; fileRef = D90AD9BF1E152CBC00C490DD /* wjreader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D90AD9C71E152CBC00C490DD /* wjwriter.h in Headers */ = {isa = PBXBuildFile; fileRef = D90AD9C01E152CBC00C490DD /* wjwriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D90AD9C81E152CBC00C490DD /* xpl.h in Headers */ = {isa = PBXBuildFile; fileRef = D90AD9C11E152CBC00C490DD /* xpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D90AD9EA1E152CC900C490DD /* xpl.c in Sources */ = {isa = PBXBuildFile; fileRef = D90AD9D31E152CC900C490DD /* xpl.c */; };
+		D90AD9EC1E152CC900C490DD /* element.c in Sources */ = {isa = PBXBuildFile; fileRef = D90AD9D61E152CC900C490DD /* element.c */; };
+		D90AD9ED1E152CC900C490DD /* element.h in Headers */ = {isa = PBXBuildFile; fileRef = D90AD9D71E152CC900C490DD /* element.h */; };
+		D90AD9EE1E152CC900C490DD /* hash.c in Sources */ = {isa = PBXBuildFile; fileRef = D90AD9D81E152CC900C490DD /* hash.c */; };
+		D90AD9EF1E152CC900C490DD /* schema.c in Sources */ = {isa = PBXBuildFile; fileRef = D90AD9D91E152CC900C490DD /* schema.c */; };
+		D90AD9F01E152CC900C490DD /* search.c in Sources */ = {isa = PBXBuildFile; fileRef = D90AD9DA1E152CC900C490DD /* search.c */; };
+		D90AD9F11E152CC900C490DD /* types.c in Sources */ = {isa = PBXBuildFile; fileRef = D90AD9DB1E152CC900C490DD /* types.c */; };
+		D90AD9F41E152CC900C490DD /* wjreader.c in Sources */ = {isa = PBXBuildFile; fileRef = D90AD9DF1E152CC900C490DD /* wjreader.c */; };
+		D90AD9F61E152CC900C490DD /* wjwriter.c in Sources */ = {isa = PBXBuildFile; fileRef = D90AD9E21E152CC900C490DD /* wjwriter.c */; };
 		D96782A41E152C3B00F487B9 /* wjelement_osx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D967829A1E152C3B00F487B9 /* wjelement_osx.framework */; };
 		D96782A91E152C3B00F487B9 /* wjelement_osxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D96782A81E152C3B00F487B9 /* wjelement_osxTests.m */; };
 		D96782AB1E152C3B00F487B9 /* wjelement_osx.h in Headers */ = {isa = PBXBuildFile; fileRef = D967829D1E152C3B00F487B9 /* wjelement_osx.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D90AD9BC1E152CBC00C490DD /* memmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memmgr.h; sourceTree = "<group>"; };
+		D90AD9BD1E152CBC00C490DD /* nmutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nmutil.h; sourceTree = "<group>"; };
+		D90AD9BE1E152CBC00C490DD /* wjelement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wjelement.h; sourceTree = "<group>"; };
+		D90AD9BF1E152CBC00C490DD /* wjreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wjreader.h; sourceTree = "<group>"; };
+		D90AD9C01E152CBC00C490DD /* wjwriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wjwriter.h; sourceTree = "<group>"; };
+		D90AD9C11E152CBC00C490DD /* xpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xpl.h; sourceTree = "<group>"; };
+		D90AD9D31E152CC900C490DD /* xpl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xpl.c; sourceTree = "<group>"; };
+		D90AD9D61E152CC900C490DD /* element.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = element.c; sourceTree = "<group>"; };
+		D90AD9D71E152CC900C490DD /* element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = element.h; sourceTree = "<group>"; };
+		D90AD9D81E152CC900C490DD /* hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hash.c; sourceTree = "<group>"; };
+		D90AD9D91E152CC900C490DD /* schema.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = schema.c; sourceTree = "<group>"; };
+		D90AD9DA1E152CC900C490DD /* search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = search.c; sourceTree = "<group>"; };
+		D90AD9DB1E152CC900C490DD /* types.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = types.c; sourceTree = "<group>"; };
+		D90AD9DF1E152CC900C490DD /* wjreader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wjreader.c; sourceTree = "<group>"; };
+		D90AD9E21E152CC900C490DD /* wjwriter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wjwriter.c; sourceTree = "<group>"; };
 		D967829A1E152C3B00F487B9 /* wjelement_osx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wjelement_osx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D967829D1E152C3B00F487B9 /* wjelement_osx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wjelement_osx.h; sourceTree = "<group>"; };
 		D967829E1E152C3B00F487B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +80,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D90AD9BA1E152CBC00C490DD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D90AD9BC1E152CBC00C490DD /* memmgr.h */,
+				D90AD9BD1E152CBC00C490DD /* nmutil.h */,
+				D90AD9BE1E152CBC00C490DD /* wjelement.h */,
+				D90AD9BF1E152CBC00C490DD /* wjreader.h */,
+				D90AD9C01E152CBC00C490DD /* wjwriter.h */,
+				D90AD9C11E152CBC00C490DD /* xpl.h */,
+			);
+			name = include;
+			path = ../../include;
+			sourceTree = "<group>";
+		};
+		D90AD9C91E152CC900C490DD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D90AD9D11E152CC900C490DD /* lib */,
+				D90AD9D41E152CC900C490DD /* wjelement */,
+				D90AD9DD1E152CC900C490DD /* wjreader */,
+				D90AD9E01E152CC900C490DD /* wjwriter */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		D90AD9D11E152CC900C490DD /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D90AD9D31E152CC900C490DD /* xpl.c */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		D90AD9D41E152CC900C490DD /* wjelement */ = {
+			isa = PBXGroup;
+			children = (
+				D90AD9D61E152CC900C490DD /* element.c */,
+				D90AD9D71E152CC900C490DD /* element.h */,
+				D90AD9D81E152CC900C490DD /* hash.c */,
+				D90AD9D91E152CC900C490DD /* schema.c */,
+				D90AD9DA1E152CC900C490DD /* search.c */,
+				D90AD9DB1E152CC900C490DD /* types.c */,
+			);
+			path = wjelement;
+			sourceTree = "<group>";
+		};
+		D90AD9DD1E152CC900C490DD /* wjreader */ = {
+			isa = PBXGroup;
+			children = (
+				D90AD9DF1E152CC900C490DD /* wjreader.c */,
+			);
+			path = wjreader;
+			sourceTree = "<group>";
+		};
+		D90AD9E01E152CC900C490DD /* wjwriter */ = {
+			isa = PBXGroup;
+			children = (
+				D90AD9E21E152CC900C490DD /* wjwriter.c */,
+			);
+			path = wjwriter;
+			sourceTree = "<group>";
+		};
 		D96782901E152C3B00F487B9 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +164,8 @@
 		D967829C1E152C3B00F487B9 /* wjelement_osx */ = {
 			isa = PBXGroup;
 			children = (
+				D90AD9BA1E152CBC00C490DD /* include */,
+				D90AD9C91E152CC900C490DD /* src */,
 				D967829D1E152C3B00F487B9 /* wjelement_osx.h */,
 				D967829E1E152C3B00F487B9 /* Info.plist */,
 			);
@@ -93,7 +188,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90AD9C51E152CBC00C490DD /* wjelement.h in Headers */,
+				D90AD9C61E152CBC00C490DD /* wjreader.h in Headers */,
+				D90AD9C41E152CBC00C490DD /* nmutil.h in Headers */,
 				D96782AB1E152C3B00F487B9 /* wjelement_osx.h in Headers */,
+				D90AD9ED1E152CC900C490DD /* element.h in Headers */,
+				D90AD9C71E152CBC00C490DD /* wjwriter.h in Headers */,
+				D90AD9C31E152CBC00C490DD /* memmgr.h in Headers */,
+				D90AD9C81E152CBC00C490DD /* xpl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90AD9EE1E152CC900C490DD /* hash.c in Sources */,
+				D90AD9F41E152CC900C490DD /* wjreader.c in Sources */,
+				D90AD9F01E152CC900C490DD /* search.c in Sources */,
+				D90AD9F61E152CC900C490DD /* wjwriter.c in Sources */,
+				D90AD9EC1E152CC900C490DD /* element.c in Sources */,
+				D90AD9EF1E152CC900C490DD /* schema.c in Sources */,
+				D90AD9EA1E152CC900C490DD /* xpl.c in Sources */,
+				D90AD9F11E152CC900C490DD /* types.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +505,7 @@
 				D96782B01E152C3B00F487B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D96782B11E152C3B00F487B9 /* Build configuration list for PBXNativeTarget "wjelement_osxTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +514,7 @@
 				D96782B31E152C3B00F487B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
